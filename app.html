@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <div id="main">
+            <div id="page">
+                <video src="pagev.mp4" autoplay loop muted></video>
+                <nav>
+                    <h3>Vision Pro</h3>
+                    <button onclick="notify()">Notify me</button>
+                </nav>
+                <div id="page-bottom">
+                    <h3>Introducing</h3>
+                    <img src="logo.png">
+                </div>
+               
+
+            </div>
+            <div id="page1">
+                <h1>Welcome to the era of spatial computing</h1>
+                <video src="page1v.mp4" autoplay loop muted></video>
+
+            </div>
+            <div id="page2">
+                <h1>You’ve never seen everything like this before.<br><br>
+                    Apple Vision Pro
+                    </h1>
+                <video src="page2v.mp4" autoplay loop muted></video>
+            </div>
+            <div id="page3">
+                <div id="page3-upper">
+                    <img src="logo1.png">
+                    <div id="page3-upper-inner">
+                        <h3>Watch the film</h3>
+                        <h3>Watch the event</h3>
+                    </div> 
+                </div>
+                <img src="hardware.jpg">
+                <button onclick="closer()">+ Take a closer look at Vision Pro</button>
+
+            </div>
+            <div id="page4">
+                <div id="center-page4">
+                    <h5>Apps </h5>
+                    <h1>
+                        Free your Desktop.<br>
+                        And your apps will follow.
+                    </h1>
+                </div>
+                <video src="page4v.mp4" autoplay muted loop>s</video>
+
+            </div> 
+            <div id="page5">
+                <div class="left5">
+                    <h1>Your apps live in<br> your space.</h1>
+                </div>
+                <div class="right5">
+                    <h3>With Vision Pro, you have an infinite canvas that transforms how you use the apps you love. 
+                        Arrange apps anywhere and scale them to the perfect size, making the workspace of your dreams 
+                        a reality — all while staying present in the world around you. Browse the web in Safari, 
+                        create a to-do list in Notes, chat in Messages, and seamlessly move between them with a glance.
+                    </h3>
+                    <button onclick=learn()> Learn more about apps</button>
+
+                </div>
+            </div>
+            <div id="page6">
+                <h3>Design</h3>
+                <h1>Designed by Apple</h1>
+                <p>Apple Vision Pro is the result of decades of experience designing high‑performance, mobile, 
+                    and wearable devices — culminating in the most ambitious product Apple has ever created. 
+                    Vision Pro integrates incredibly advanced technology into an elegant, compact form, resulting 
+                    in an amazing experience every time you put it on.</p>
+
+            </div>
+        
+            <div id="page7">
+              
+                <canvas></canvas>
+            </div>
+            <div class="inner-textl">
+                <p><span style="font-weight:bold;">Enclosure.</span> A singular<br>
+                     piece of three-dimensionally formed <br>
+                     laminated glass flows <br>
+                     into an aluminum alloy <br>
+                     frame that curves to 
+                     <br>wrap around your face.</p>
+            </div>
+            <div class="inner-textr">
+                <p><span style="font-weight:bold;">Light Seal.</span> The<br>
+                     Light Seal gently flexes <br>
+                     to conform to your face,<br> 
+                     delivering a precise fit <br>
+                     while blocking out 
+                     <br>stray light.</p>
+            </div>
+            <div class="inner-textl">
+                <p><span style="font-weight:bold;"> EyeSight.</span>An outward <br>
+                    display reveals your eyes<br> while wearing Vision Pro,
+                    <br> letting others know <br>when you are using apps
+                    <br> or fully immersed..</p>
+            </div>
+            <div id="page8">
+                <div class="page8-center">
+                    <h3>Technology</h3>
+                    <h1>Innovation you can see, <br>hear, and feel.</h1>
+                    <h4><span style="color: white;"> boundaries from the inside out.</span> Spatial experiences on <br> Vision 
+                        Pro are only possible through groundbreaking Apple <br>technology.
+                         Displays the size of a postage stamp that deliver more<br> pixels 
+                         than a 4K TV to each eye. Incredible advances in <br> Spatial 
+                         Audio. A revolutionary dual‑chip design featuring custom <br>
+                         Apple silicon. A sophisticated array of cameras and sensors. All the <br>
+                         elements work together to create an unprecedented experience <br>
+                         you have to see to believe.
+                    </h4>
+                </div>
+                <canvas></canvas>
+            </div>
+            
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" 
+         integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+         integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" 
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+         <script src="napp.js"></script>
+    </body>
+</html>
